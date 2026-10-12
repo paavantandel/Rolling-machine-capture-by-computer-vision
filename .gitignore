@@ -1,16 +1,45 @@
-# Secrets — keep local MQTT credentials off GitHub
-config_MQTT_v1.yaml
-
-# Runtime output
-captured_images_*/
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyd
+
+# Virtual environments
 .venv/
 venv/
-.env
+env/
 
-# OS / editor
-Thumbs.db
-.DS_Store
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+
+# Local configuration
+config/config.yaml
+config_MQTT_v1.yaml
+
+# Trained model weights
+*.pt
+*.onnx
+*.engine
+
+# Dataset files
+dataset/train/
+dataset/valid/
+dataset/test/
+*.jpg
+*.jpeg
+*.png
+
+# Training outputs
+runs/
+results/
+captured_images_*/
+
+# Logs
+*.log
+
+# IDE and OS files
 .vscode/
 .idea/
+.DS_Store
+Thumbs.db
