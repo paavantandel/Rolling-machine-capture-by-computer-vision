@@ -1,0 +1,18 @@
+mqtt_broker: "10.23.126.27"
+mqtt_port: 1884
+mqtt_username: "lthe-prod"
+mqtt_password: "mCE@2023"
+mqtt_topic: "VisWELD_FACCIN"
+
+yolo_model: "best.pt"
+conf: 0.5  # Confidence threshold for the YOLO model
+
+camera_url: "rtsp://admin:123@micro@10.21.117.150:554/Streaming/Channels/102"  # Leave empty for default camera, or provide RTSP URL
+
+log_file: "condition_log.xlsx"
+detection_interval: 3  # Time in seconds between each frame detection
+data_sending_interval: 30  # Time in seconds between each data send via MQTT
+
+assetCode: HXX-XXX
+assetName: Faccin
+assetType: Smart Rolling Station
