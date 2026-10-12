@@ -1,0 +1,16 @@
+# Secrets — keep local MQTT credentials off GitHub
+config_MQTT_v1.yaml
+
+# Runtime output
+captured_images_*/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# OS / editor
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
